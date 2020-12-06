@@ -1,0 +1,189 @@
+body{
+	background-image:url("fundo.png");
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	}
+
+input{
+	height: 40px;
+	width: 300px;
+	margin: 20px;
+	border-radius: 28px;
+	border: 3px solid rgb(10, 10, 75);
+	font-size: 22px;
+	padding: 8px 18px;
+	}
+	
+input[type=file]{
+		height: 40px;
+		width: 300px;
+		margin: 20px;
+		font-size: 22px;
+	}
+
+input[type=radio]{
+	width: 40px;
+	display: float;
+	height: 18px;
+	cursor: pointer;
+	}
+
+input[type=submit]{
+		display: float;
+		background-color: rgb(17, 139, 17);
+		border: none;
+		cursor: pointer;
+	}
+	
+input[type=reset]{
+		display: block;
+		background-color: rgb(102, 28, 28);
+		border: none;
+		cursor: pointer;
+	}
+
+h1{
+	font-size: 33px;
+	text-shadow: 1pt 1pt black;
+	color: #e2c209;
+	width: 340px;
+	margin: 170px auto 0px auto;
+	text-align: center;
+	}
+
+h2{
+	font-family: inherit;
+	font-size:30px;
+	text-align: center;
+	color:#FF4500;
+	}
+
+a{
+	color: #e23409;
+	text-align: center;
+	display: block;
+	font-size: 25px;
+	}
+
+	@keyframes pisca {
+		25%  {background-color:rgb(30, 20, 20);}
+		50%  {background-color:blue;}
+		75%  {background-color:green;}
+	  }
+	  .letreiro {
+		color: rgb(190, 19, 19);
+		position: relative;
+		animation: pisca 5s infinite;
+	  }
+
+a:hover{
+		text-decoration: line-through;
+		color: #e2e610;
+		}
+
+span{
+	font-size:40px;
+	}
+		
+p {
+	font-family: cursive;
+	font-size: 25px;
+	text-align: left;
+	color:#1a1716;
+	text-shadow: 1pt 1pt rgb(212, 16, 16);
+	}
+
+.sub2 {
+	font-family: cursive;
+	font-size: 30px;
+	text-align: left;
+	color:#ee0b0bef;
+	text-shadow: 1pt 1pt rgb(7, 1, 1);
+	}
+
+.sub {
+	font-family: inherit;
+	font-size: 18px;
+	text-align: center;
+	color:#8B4513;
+	font-weight: 900;
+	background-color: #B0E0E6;
+	text-shadow: 0pt 0pt rgb(212, 16, 16);
+  }
+
+	img{ 
+		width: 30px;
+        height: 20px;
+		border: 2px groove #000000;
+	}
+
+img:hover{
+		width: 300px;
+        height: 200px;
+		border:7px dashed #B22222;
+		cursor: pointer;
+	}
+
+	cite{
+	
+		font-size: xx-large; 
+		text-decoration: blink; 
+		word-spacing: 20pt;
+		border-style: groove;
+		border-width: 8pt; 
+		border-color:#DC143C;
+		background-color: #B0E0E6;
+		}
+	/*define as bordas de 3*/
+	.tablink {
+	  background-color: #555;
+	  color: white;
+	  float: left;
+	  border: none;
+	  outline: none;
+	  cursor: pointer;
+	  padding: 8px 10px;
+	  font-size: 17px;
+	  width: 33%;
+	}
+
+		/*define as bordas de 2*/
+.tablink2 {
+		background-color: #555;
+		color: white;
+		float: left;
+		border: none;
+		outline: none;
+		cursor: pointer;
+		padding: 8px 10px;
+		font-size: 17px;
+		width: 50%;
+	}
+	
+	/* TAMANHO DO MENU */
+	.tabcontent {
+	  color: white;
+	  display: none;
+	  padding: 30px 20px;
+	  height: 10%;
+	}
+
+	.subnav-content {
+		display: none;
+		position: absolute;
+		left: 0;
+		background-color: red;
+		width: 100%;
+		z-index: 1;
+	  }
+	  .subnav .subnavbtn {
+		font-size: 16px;  
+		border: none;
+		outline: none;
+		color: white;
+		padding: 14px 16px;
+		background-color: inherit;
+		font-family: inherit;
+		margin: 0;
+	  }

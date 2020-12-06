@@ -1,0 +1,25 @@
+<?php
+	session_start();
+?>
+<!DOCTYPE HTML>
+<HTML lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<title>LEONARDO NARESSI LANES</title>
+		<link rel="stylesheet" type="text/css" href="CSS/Style.css">
+	</head>
+	<body>
+	 <h1>LOGIN ADMINISTRADOR
+		<form method="POST" action="PHP/LoginFuncinandoADM.php">
+		 <input type="email" name="login" placeholder="Usuario" maxlength="30">
+		 <input type="senha" name="senha" placeholder="Senha" maxlength="30">
+		 <input type="submit" value="ENTRAR">
+		 <input type="reset" value="LIMPAR">
+		</form>
+		 <a href="Login.html">
+		 <input type="submit" value="Logar como Aluno"></a>
+		 <a href="cadastrarADM.html" class="letreiro"><span>&#128073;</span>Novo Cadastro!<span>&#128072;</span></a>
+	 </h1>
+	</body>
+	<font size="1" color="gray"><div align="right">Trabalho feito por LEONARDO N. LANES em 2020 </div></font>
+</HTML>
